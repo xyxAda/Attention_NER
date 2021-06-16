@@ -46,7 +46,7 @@ Please consider citing the following paper if you find this repository useful.
 ```
 
 
-@inproceedings{DBLP:conf/aaai/XuHF021,
+@inproceedings{XuHF021,
   author    = {Yongxiu Xu and
                Heyan Huang and
                Chong Feng and
