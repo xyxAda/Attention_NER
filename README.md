@@ -27,6 +27,9 @@ sentences,records=joblib.load("genia.train.raw.pkl")
 sentences:[[sentence1],[sentence2],...[sentenceN]],N is the number of the sentences in each file.
 records is a list of dicts：[{(3,5):"DNA",(6,7):"RNA",(6,10):"DNA"...},{},...{}]
 ```
+### download pre-trained bert
+
+Download [BERT-BASE-UNCASED](https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased.tar.gz) and its [vocab.txt](https://s3.amazonaws.com/models.huggingface.co/bert/bert-large-uncased-vocab.txt) , and put it under data/bert/
 
 ## Run
 We based our implementation on the [AllenNLP library](https://github.com/allenai/allennlp). For an introduction to this library, you should check [these tutorials](https://allennlp.org/tutorials).
