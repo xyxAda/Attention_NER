@@ -44,6 +44,24 @@ python train_json.py --config_file_path configs/smhsan-genia.json --serializatio
 
 Please consider citing the following paper if you find this repository useful.
 ```
-@inproceedings{**
+
+
+@inproceedings{DBLP:conf/aaai/XuHF021,
+  author    = {Yongxiu Xu and
+               Heyan Huang and
+               Chong Feng and
+               Yue Hu},
+  title     = {A Supervised Multi-Head Self-Attention Network for Nested Named Entity
+               Recognition},
+  booktitle = {Thirty-Fifth {AAAI} Conference on Artificial Intelligence, {AAAI}
+               2021, Thirty-Third Conference on Innovative Applications of Artificial
+               Intelligence, {IAAI} 2021, The Eleventh Symposium on Educational Advances
+               in Artificial Intelligence, {EAAI} 2021, Virtual Event, February 2-9,
+               2021},
+  pages     = {14185--14193},
+  publisher = {{AAAI} Press},
+  year      = {2021},
 }
+
+
 ```
